@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-config-server" />
+        <module name="cloud-eureka-server" />
+        <module name="cloud-feign-server" />
+        <module name="cloud-ribbon-server" />
+        <module name="cloud-simple-ui" />
+        <module name="cloud-simple-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-config-server" target="1.7" />
+      <module name="cloud-eureka-server" target="1.7" />
+      <module name="cloud-feign-server" target="1.7" />
+      <module name="cloud-ribbon-server" target="1.7" />
+      <module name="cloud-simple-service" target="1.7" />
+      <module name="cloud-simple-ui" target="1.7" />
+      <module name="cloud-simple-zuul" target="1.7" />
+      <module name="spring_cloud" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
